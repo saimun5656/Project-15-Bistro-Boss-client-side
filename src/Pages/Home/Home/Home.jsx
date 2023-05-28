@@ -1,13 +1,16 @@
 import Banner from "../Banner/Banner";
+import Featured from "../Featured/Featured";
+import PopulerMenu from "../PopulerMenu/PopulerMenu";
 import Slider from "../Slider/Slider";
-
 
 const Home = () => {
     return (
         <div>
            <Banner></Banner>
-           <div className="max-w-screen-xl mx-auto w-11/12">
+           <div>
            <Slider></Slider>
+           <PopulerMenu></PopulerMenu>
+           <Featured></Featured>
            </div>
         </div>
     );

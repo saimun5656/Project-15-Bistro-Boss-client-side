@@ -2,7 +2,8 @@ import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 const Banner = () => {
     return (
-        <Carousel className='text-center'>
+        <section>
+            <Carousel className='text-center'>
              <div>
                     <img src="/src/assets/home/01.jpg" /> 
                 </div>
@@ -22,6 +23,7 @@ const Banner = () => {
                     <img src="/src/assets/home/06.png" />
                 </div>
         </Carousel>
+        </section>
     );
 };
 

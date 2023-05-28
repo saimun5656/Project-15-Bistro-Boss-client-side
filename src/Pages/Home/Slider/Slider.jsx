@@ -2,9 +2,12 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination } from "swiper";
+import SectionTitle from "../../../Components/SectionTitle/SectionTitle";
 
 const Slider = () => {
     return (
+      <section  className="max-w-screen-xl mx-auto w-11/12">
+         <SectionTitle title={'ORDER ONLINE'} subTitle={'---From 11:00am to 10:00pm---'}></SectionTitle>
         <Swiper
         slidesPerView={4}
         spaceBetween={20}
@@ -36,6 +39,7 @@ const Slider = () => {
         <p className="text-center uppercase text-3xl text-white -mt-20 py-5">salad</p>
         </SwiperSlide>
       </Swiper>
+      </section>
     );
 };
 
